@@ -1,0 +1,12 @@
+.hero{
+    height: 100vh;
+    background-image:url("../img/surtido-embutidos-variedad-productos-procesados-embutidos_135427-178.jpg") ;
+    background-color: rgb(88, 64, 64);
+    background-blend-mode: soft-light;
+    .hero__main{
+        display: flex;
+        .hero__main > div{
+            flex:1
+        }
+    }
+}
